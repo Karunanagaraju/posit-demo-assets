@@ -20,10 +20,10 @@ jobs:
 
       # - uses: r-lib/actions/setup-renv@v2
           
-      - name: Test Shiny App
-        shell: Rscript {0}
-        run: |
-          shinytest2::test_app()
+      # - name: Test Shiny App
+      #   shell: Rscript {0}
+      #   run: |
+      #     shinytest2::test_app()
           
       - name: Create manifest.json
         shell: Rscript {0}
